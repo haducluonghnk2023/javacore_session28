@@ -44,7 +44,7 @@ public class Ex06 {
 
                 // Nếu không có lỗi thì commit
                 conn.commit();
-                System.out.println("Giao dịch thành công!");
+                System.out.println("\u001B[35m Giao dịch thành công!\u001B[0m");
 
             } catch (SQLException ex) {
                 // Có lỗi → rollback
